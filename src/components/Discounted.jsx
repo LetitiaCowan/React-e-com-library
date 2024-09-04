@@ -19,10 +19,10 @@ function Discounted() {
               .map((book) => ( books.filter(book => book.salePrice > 0)
                 <Book book={book} />
               ))} */}
-            {
+            {/* {
                books.filter(book => book.salePrice)
                 .map((book) => (<Book book={book}/>))
-            }
+            } */}
           </div>
         </div>
       </div>
