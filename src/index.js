@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBars, faBold, faBolt, faShoppingCart, faX, faBookOpen, faTags, faStar, faStarHalfStroke} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faBars, faShoppingCart, faX, faBookOpen, faBolt, faTags, faStar, faStarHalfStroke)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
